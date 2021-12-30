@@ -1,5 +1,5 @@
 const fetchWeather = async (city) => {
-    const res = await fetch(`http://api.openweathermap.org/data/2.5/weather?q=${city},mx&appid=d88a37ad3b812e60a51a6473e398a329`);
+    const res = await fetch(`https://api.openweathermap.org/data/2.5/weather?q=${city},mx&appid=d88a37ad3b812e60a51a6473e398a329`);
     if (res.status !== 200 ) {
       alert("Please introduce a valid city") 
     } else {
