@@ -1,0 +1,16 @@
+.weather-card {
+    margin-top: auto;
+}
+
+.card-title {
+    margin-left: .5rem;
+}
+
+.card-text {
+    font-size: 1.25rem;
+}
+
+.card{
+    margin: 0 .5rem;
+    max-width: 40rem;
+}
